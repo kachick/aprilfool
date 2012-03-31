@@ -1,0 +1,33 @@
+= April Fool
+
+* http://github.com/kachick/aprilfool
+
+== Description
+
+A joke gem.
+(Don't use in mission-critical!!)
+
+== Usage
+
+* setup
+    require 'aprilfool'
+
+* see
+    p SOMETHING
+
+== Requirements
+
+* Ruby
+  
+  target release versions
+    * 1.9.3-p125
+
+== Installation
+
+* gem install aprilfool
+
+== License
+
+Copyright (C) 2012  Kenichi Kamiya
+
+WTFPL (See the file LICENSE)
