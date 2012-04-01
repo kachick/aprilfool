@@ -11,20 +11,20 @@ module AprilFool
   VERSION = '0.0.1'
 end
 
-class Object
-  now = Time.now
+class Time
+  def aprilfool?
+    (month == 4) && (day == 1)
+  end
+end
 
-  if now.month == 4 and now.day == 1
-    tommorow = Time.local now.year, 4, 2
-    
-    constants.reject{|c|/Config/ =~ c}.map{|c|const_get c}.grep Module do |mod|
-      mod.instance_eval do
-        define_method :inspect do
-          "This Freedom day will end after #{(tommorow - now).to_i} secs. Have fun! ;)"
-        end
+if Time.now.aprilfool?
+  module Kernel
+    def p(*args)
+      args.each do |arg|
+        puts "Not #{arg.inspect} ;)"
       end
     end
-  else
-    $stderr.puts 'WARN: Get back to your normal life. o_0'
   end
+else
+  $stderr.puts 'WARN: Get back to your normal life. o_0'
 end

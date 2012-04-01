@@ -1,11 +1,11 @@
 = April Fool
 
 * http://github.com/kachick/aprilfool
+* http://rubygems.org/gems/aprilfool
 
 == Description
 
 A joke gem.
-(Don't use in mission-critical!!)
 
 == Usage
 
@@ -20,7 +20,9 @@ A joke gem.
 * Ruby
   
   target release versions
-    * 1.9.3-p125
+
+  * 1.9.3-p125
+  * 1.9.2-p290
 
 == Installation
 
