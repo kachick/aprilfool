@@ -1,5 +1,5 @@
 # Copyright (C) 2012  Kenichi Kamiya
-# A joke library.
+# apilfool - A joke library.
 
 # This program is free software. It comes without any warranty, to
 # the extent permitted by applicable law. You can redistribute it
@@ -7,15 +7,7 @@
 # To Public License, Version 2, as published by Sam Hocevar. See
 # http://sam.zoy.org/wtfpl/COPYING for more details.
 
-module AprilFool
-  VERSION = '0.0.1'
-end
-
-class Time
-  def aprilfool?
-    (month == 4) && (day == 1)
-  end
-end
+require_relative 'time/aprilfool'
 
 if Time.now.aprilfool?
   module Kernel
