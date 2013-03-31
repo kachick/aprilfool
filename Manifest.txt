@@ -1,7 +1,0 @@
-README.rdoc
-LICENSE
-History.rdoc
-Manifest.txt
-Rakefile
-example.rb
-lib/aprilfool.rb
