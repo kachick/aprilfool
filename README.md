@@ -1,8 +1,9 @@
 aprilfool
 =============
 
-[![Build Status](https://secure.travis-ci.org/kachick/aprilfool.png)](http://travis-ci.org/kachick/aprilfool)
-[![Gem Version](https://badge.fury.io/rb/aprilfool.png)](http://badge.fury.io/rb/aprilfool)
+* ***This repository is archived***
+* ***No longer maintained***
+* ***All versions have been yanked from https://rubygems.org/ for releasing valuable namespace for others***
 
 Description
 -----------
