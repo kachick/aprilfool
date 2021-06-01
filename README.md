@@ -23,8 +23,3 @@ require 'aprilfool'
 
 p foobar
 ```
-
-Requirements
--------------
-
-* [Ruby 1.9.2 or later](http://travis-ci.org/#!/kachick/aprilfool)
