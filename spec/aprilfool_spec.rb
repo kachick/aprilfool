@@ -1,6 +1,6 @@
 require_relative 'helper'
 
-describe "aprilfool" do
+RSpec.describe "aprilfool" do
   context Time do
     context "#aprilfool" do
       it "returns true when the current date is 4/1" do

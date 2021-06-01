@@ -1,5 +1,5 @@
 # Copyright (C) 2012  Kenichi Kamiya
-# apilfool - A joke library.
+# aprilfool - A joke library.
 
 # This program is free software. It comes without any warranty.
 # See https://unlicense.org/
